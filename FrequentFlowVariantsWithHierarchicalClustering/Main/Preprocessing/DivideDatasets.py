@@ -1,4 +1,4 @@
-## This will return a random subset of a given event log by extracting a given ratio of items
+## This will return a random subset of an event log by extracting a given portion of items
 import random
 
 def get_subset(log_all, portion):

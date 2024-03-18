@@ -1,12 +1,15 @@
 ## This will return a random subset of an event log by extracting a given portion of items
 import random
+from pm4py.objects.log.obj import EventLog
 
-def get_subset(log_all, portion):
+def get_subset(log_all, portion_of):
 
-    # Final size of the subset
-    subset_size = round(len(log_all) * portion)
+    # Create a subset by dividing the full dataset into a given portion 
+    # & take 1 trace from consecutive records 
+    event_log_subset = EventLog()
 
-    # Seleting data randomly for the subset
-    log_subset = random.sample(log_all, subset_size)
+    for i in range(0, len(log_all), portion_of):
+        if i + 2 < len(log_all):
+            event_log_subset.append(log_all[i])
 
-    return log_subset
+    return event_log_subset

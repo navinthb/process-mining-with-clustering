@@ -13,5 +13,5 @@ def translate(event_log, lang_code):
                     translation = translator.translate(event['concept:name'], dest=lang_code)
                     event['concept:name'] = translation.text
                 except Exception as e:
-                    print(f"Translation error occured: {e}")
+                    continue
     return event_log

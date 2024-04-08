@@ -1,4 +1,5 @@
 import pandas as pd
+import csv
 
 def assign_weights(event_flows_df):
     
@@ -17,3 +18,27 @@ def assign_unique_variant_ids(event_flows_df, col_name):
     event_flows_df[col_name] = [variant_numbers[flow] for flow in event_flows_df['Event Flow']]
 
     return event_flows_df
+
+
+# write values in a given cluster by
+# generating a CaseID & assigning event names as activities
+def write_cluster_to_csv(cluster, file_name):
+    
+    with open(file_name, 'w', newline='') as file:
+        
+        # Define fields for CSV
+        field_names = ['CaseID', 'Activity']
+
+        # Create a CSV writer object
+        csv_writer = csv.DictWriter(file, fieldnames=field_names)
+
+        # Write the header row to the CSV file
+        csv_writer.writeheader()
+
+        # Looping through each trace 
+        for trace_idx, trace in enumerate(cluster, start=1):
+            
+            # Looping through each event in the trace
+            for event_idx, event_name in enumerate(trace, start=1):
+                # Write each event to the CSV file
+                csv_writer.writerow({'CaseID': f'Trace{trace_idx}', 'Activity': event_name})

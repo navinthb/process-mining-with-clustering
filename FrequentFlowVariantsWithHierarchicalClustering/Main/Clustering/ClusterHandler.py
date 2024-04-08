@@ -3,6 +3,7 @@ import pandas as pd
 from sklearn.metrics.pairwise import pairwise_distances
 from scipy.cluster.hierarchy import linkage, dendrogram
 import matplotlib.pyplot as plt
+from scipy.cluster.hierarchy import fcluster
 
 
 # this calculates the distances among flows 
@@ -58,3 +59,21 @@ def generate_dendogram(clustered_flows, event_flows_df, col_name, title, xlabel,
 
     # Save the dendrogram as a PNG file
     plt.savefig(save_figure_to, dpi=300)
+
+
+# form clusters based on weights
+def form_cluster_variants(event_flows_df, clustered_flows, num_of_clusters, max_variants):
+
+    # Initialize clusters
+    clusters = [[] for _ in range(num_of_clusters)]
+    
+    # Select event flows for cluster
+    cluster_assignments = fcluster(clustered_flows, num_of_clusters, criterion='maxclust')
+    
+    # Append event flows to the respective cluster based on weights
+    for i, group in event_flows_df.groupby(cluster_assignments):
+        # Sort each group by weights
+        group_sorted = group.sort_values(by='Weight', ascending=False).head(max_variants)
+        clusters[i - 1].extend(group_sorted['Event Flow'].tolist())
+    
+    return clusters

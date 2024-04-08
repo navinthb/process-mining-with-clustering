@@ -1,0 +1,428 @@
+CaseID,Activity
+Trace1,vervolgconsult poliklinisch
+Trace1,administratief tarief       - eerste pol
+Trace2,vervolgconsult poliklinisch
+Trace2,administratief tarief       - eerste pol
+Trace2,vervolgconsult poliklinisch
+Trace3,vervolgconsult poliklinisch
+Trace3,administratief tarief       - eerste pol
+Trace3,vervolgconsult poliklinisch
+Trace3,administratief tarief       - eerste pol
+Trace3,vervolgconsult poliklinisch
+Trace3,administratief tarief       - eerste pol
+Trace4,vervolgconsult poliklinisch
+Trace4,administratief tarief       - eerste pol
+Trace4,vervolgconsult poliklinisch
+Trace4,administratief tarief       - eerste pol
+Trace5,verlosk.-gynaec.   jaarkaart kosten-out
+Trace5,vervolgconsult poliklinisch
+Trace5,administratief tarief       - eerste pol
+Trace6,verlosk.-gynaec.   jaarkaart kosten-out
+Trace6,vervolgconsult poliklinisch
+Trace6,administratief tarief       - eerste pol
+Trace6,vervolgconsult poliklinisch
+Trace6,administratief tarief       - eerste pol
+Trace7,verlosk.-gynaec.   jaarkaart kosten-out
+Trace7,vervolgconsult poliklinisch
+Trace7,administratief tarief       - eerste pol
+Trace7,vervolgconsult poliklinisch
+Trace7,vervolgconsult poliklinisch
+Trace7,vervolgconsult poliklinisch
+Trace7,administratief tarief       - eerste pol
+Trace7,vervolgconsult poliklinisch
+Trace7,administratief tarief       - eerste pol
+Trace8,verlosk.-gynaec.   jaarkaart kosten-out
+Trace8,vervolgconsult poliklinisch
+Trace8,administratief tarief       - eerste pol
+Trace8,vervolgconsult poliklinisch
+Trace8,vervolgconsult poliklinisch
+Trace8,administratief tarief       - eerste pol
+Trace9,verlosk.-gynaec. korte kaart kosten-out
+Trace9,vervolgconsult poliklinisch
+Trace9,administratief tarief       - eerste pol
+Trace10,telefonisch consult
+Trace10,vervolgconsult poliklinisch
+Trace10,administratief tarief       - eerste pol
+Trace11,cytologisch onderzoek - vagina -
+Trace11,vervolgconsult poliklinisch
+Trace11,administratief tarief       - eerste pol
+Trace11,telefonisch consult
+Trace12,verlosk.-gynaec.   jaarkaart kosten-out
+Trace12,vervolgconsult poliklinisch
+Trace12,administratief tarief       - eerste pol
+Trace12,vervolgconsult poliklinisch
+Trace12,vervolgconsult poliklinisch
+Trace12,administratief tarief       - eerste pol
+Trace12,vervolgconsult poliklinisch
+Trace12,administratief tarief       - eerste pol
+Trace12,vervolgconsult poliklinisch
+Trace13,vervolgconsult poliklinisch
+Trace13,administratief tarief       - eerste pol
+Trace13,vervolgconsult poliklinisch
+Trace13,vervolgconsult poliklinisch
+Trace13,administratief tarief       - eerste pol
+Trace13,vervolgconsult poliklinisch
+Trace13,vervolgconsult poliklinisch
+Trace13,thorax
+Trace13,ct abdomen
+Trace14,vervolgconsult poliklinisch
+Trace14,administratief tarief       - eerste pol
+Trace14,vervolgconsult poliklinisch
+Trace14,telefonisch consult
+Trace14,vervolgconsult poliklinisch
+Trace14,administratief tarief       - eerste pol
+Trace15,verlosk.-gynaec.   jaarkaart kosten-out
+Trace15,vervolgconsult poliklinisch
+Trace15,administratief tarief       - eerste pol
+Trace15,vervolgconsult poliklinisch
+Trace15,administratief tarief       - eerste pol
+Trace15,vervolgconsult poliklinisch
+Trace15,administratief tarief       - eerste pol
+Trace15,vervolgconsult poliklinisch
+Trace15,administratief tarief       - eerste pol
+Trace16,verlosk.-gynaec.   jaarkaart kosten-out
+Trace16,vervolgconsult poliklinisch
+Trace16,administratief tarief       - eerste pol
+Trace16,vervolgconsult poliklinisch
+Trace16,vervolgconsult poliklinisch
+Trace16,administratief tarief       - eerste pol
+Trace16,vervolgconsult poliklinisch
+Trace16,vervolgconsult poliklinisch
+Trace16,administratief tarief       - eerste pol
+Trace17,verlosk.-gynaec.   jaarkaart kosten-out
+Trace17,vervolgconsult poliklinisch
+Trace17,administratief tarief       - eerste pol
+Trace17,vervolgconsult poliklinisch
+Trace17,vervolgconsult poliklinisch
+Trace17,vervolgconsult poliklinisch
+Trace17,administratief tarief       - eerste pol
+Trace17,vervolgconsult poliklinisch
+Trace18,vervolgconsult poliklinisch
+Trace18,administratief tarief       - eerste pol
+Trace18,telefonisch consult
+Trace18,vervolgconsult poliklinisch
+Trace18,telefonisch consult
+Trace19,verlosk.-gynaec.   jaarkaart kosten-out
+Trace19,echografie  - genitalia interna
+Trace19,vervolgconsult poliklinisch
+Trace19,administratief tarief       - eerste pol
+Trace20,verlosk.-gynaec. korte kaart kosten-out
+Trace20,histologisch onderzoek - biopten nno
+Trace20,vervolgconsult poliklinisch
+Trace20,administratief tarief       - eerste pol
+Trace20,telefonisch consult
+Trace20,vervolgconsult poliklinisch
+Trace20,administratief tarief       - eerste pol
+Trace21,vervolgconsult poliklinisch
+Trace21,vervolgconsult poliklinisch
+Trace21,administratief tarief       - eerste pol
+Trace21,vervolgconsult poliklinisch
+Trace21,vervolgconsult poliklinisch
+Trace21,administratief tarief       - eerste pol
+Trace21,vervolgconsult poliklinisch
+Trace22,vervolgconsult poliklinisch
+Trace22,telefonisch consult
+Trace22,vervolgconsult poliklinisch
+Trace22,administratief tarief       - eerste pol
+Trace23,vervolgconsult poliklinisch
+Trace23,administratief tarief       - eerste pol
+Trace23,vervolgconsult poliklinisch
+Trace23,administratief tarief       - eerste pol
+Trace23,vervolgconsult poliklinisch
+Trace24,vervolgconsult poliklinisch
+Trace24,administratief tarief       - eerste pol
+Trace24,vervolgconsult poliklinisch
+Trace24,vervolgconsult poliklinisch
+Trace24,administratief tarief       - eerste pol
+Trace24,vervolgconsult poliklinisch
+Trace25,verlosk.-gynaec.   jaarkaart kosten-out
+Trace25,vervolgconsult poliklinisch
+Trace25,vervolgconsult poliklinisch
+Trace25,administratief tarief       - eerste pol
+Trace25,vervolgconsult poliklinisch
+Trace26,vervolgconsult poliklinisch
+Trace26,vervolgconsult poliklinisch
+Trace26,administratief tarief       - eerste pol
+Trace26,vervolgconsult poliklinisch
+Trace26,administratief tarief       - eerste pol
+Trace27,vervolgconsult poliklinisch
+Trace27,administratief tarief       - eerste pol
+Trace27,telefonisch consult
+Trace27,telefonisch consult
+Trace27,telefonisch consult
+Trace27,vervolgconsult poliklinisch
+Trace28,vervolgconsult poliklinisch
+Trace28,administratief tarief       - eerste pol
+Trace28,vervolgconsult poliklinisch
+Trace28,administratief tarief       - eerste pol
+Trace28,telefonisch consult
+Trace29,vervolgconsult poliklinisch
+Trace29,administratief tarief       - eerste pol
+Trace29,vervolgconsult poliklinisch
+Trace29,administratief tarief       - eerste pol
+Trace29,mammografie thoraxwand
+Trace29,telefonisch consult
+Trace29,vervolgconsult poliklinisch
+Trace29,administratief tarief       - eerste pol
+Trace30,vervolgconsult poliklinisch
+Trace30,administratief tarief       - eerste pol
+Trace30,echografie  - genitalia interna
+Trace30,1e consult      bezoek
+Trace30,telefonisch consult
+Trace30,vervolgconsult poliklinisch
+Trace30,administratief tarief       - eerste pol
+Trace31,vervolgconsult poliklinisch
+Trace31,administratief tarief       - eerste pol
+Trace31,vervolgconsult poliklinisch
+Trace31,vervolgconsult poliklinisch
+Trace32,cytologisch onderzoek - vagina -
+Trace32,1e consult poliklinisch
+Trace32,administratief tarief       - eerste pol
+Trace32,telefonisch consult
+Trace32,cytologisch onderzoek - vagina -
+Trace32,vervolgconsult poliklinisch
+Trace32,administratief tarief       - eerste pol
+Trace32,telefonisch consult
+Trace33,vervolgconsult poliklinisch
+Trace33,administratief tarief       - eerste pol
+Trace33,thorax
+Trace33,vervolgconsult poliklinisch
+Trace33,telefonisch consult
+Trace33,vervolgconsult poliklinisch
+Trace33,vervolgconsult poliklinisch
+Trace33,administratief tarief       - eerste pol
+Trace33,vervolgconsult poliklinisch
+Trace34,mammografie thoraxwand
+Trace34,vervolgconsult poliklinisch
+Trace34,administratief tarief       - eerste pol
+Trace34,vervolgconsult poliklinisch
+Trace35,vervolgconsult poliklinisch
+Trace35,administratief tarief       - eerste pol
+Trace35,vervolgconsult poliklinisch
+Trace35,wervelkolom - lumbaal
+Trace35,bekken - staand
+Trace35,vervolgconsult poliklinisch
+Trace35,administratief tarief       - eerste pol
+Trace35,vervolgconsult poliklinisch
+Trace36,verlosk.-gynaec.   jaarkaart kosten-out
+Trace36,vervolgconsult poliklinisch
+Trace36,administratief tarief       - eerste pol
+Trace36,vervolgconsult poliklinisch
+Trace36,vervolgconsult poliklinisch
+Trace36,administratief tarief       - eerste pol
+Trace36,vervolgconsult poliklinisch
+Trace36,administratief tarief       - eerste pol
+Trace36,vervolgconsult poliklinisch
+Trace36,administratief tarief       - eerste pol
+Trace37,vervolgconsult poliklinisch
+Trace37,administratief tarief       - eerste pol
+Trace37,vervolgconsult poliklinisch
+Trace37,administratief tarief       - eerste pol
+Trace37,vervolgconsult poliklinisch
+Trace37,administratief tarief       - eerste pol
+Trace37,vervolgconsult poliklinisch
+Trace37,administratief tarief       - eerste pol
+Trace38,vervolgconsult poliklinisch
+Trace38,administratief tarief       - eerste pol
+Trace38,vervolgconsult poliklinisch
+Trace38,vervolgconsult poliklinisch
+Trace38,administratief tarief       - eerste pol
+Trace38,vervolgconsult poliklinisch
+Trace38,administratief tarief       - eerste pol
+Trace39,verlosk.-gynaec.   jaarkaart kosten-out
+Trace39,vervolgconsult poliklinisch
+Trace39,administratief tarief       - eerste pol
+Trace39,telefonisch consult
+Trace39,urinewegen  - urodynamisch onderzoek-vij
+Trace39,telefonisch consult
+Trace39,vervolgconsult poliklinisch
+Trace39,histologisch onderzoek - biopten nno
+Trace39,vervolgconsult poliklinisch
+Trace39,administratief tarief       - eerste pol
+Trace39,telefonisch consult
+Trace40,vervolgconsult poliklinisch
+Trace40,verlosk.-gynaec.   jaarkaart kosten-out
+Trace40,vervolgconsult poliklinisch
+Trace40,cytologisch onderzoek - ectocervix -
+Trace40,vervolgconsult poliklinisch
+Trace40,administratief tarief       - eerste pol
+Trace40,telefonisch consult
+Trace40,vervolgconsult poliklinisch
+Trace40,vervolgconsult poliklinisch
+Trace40,administratief tarief       - eerste pol
+Trace40,vervolgconsult poliklinisch
+Trace41,verlosk.-gynaec.   jaarkaart kosten-out
+Trace41,vervolgconsult poliklinisch
+Trace41,administratief tarief       - eerste pol
+Trace41,vervolgconsult poliklinisch
+Trace42,verlosk.-gynaec.   jaarkaart kosten-out
+Trace42,vervolgconsult poliklinisch
+Trace42,administratief tarief       - eerste pol
+Trace42,vervolgconsult poliklinisch
+Trace42,vervolgconsult poliklinisch
+Trace42,vervolgconsult poliklinisch
+Trace42,administratief tarief       - eerste pol
+Trace42,vervolgconsult poliklinisch
+Trace42,vervolgconsult poliklinisch
+Trace43,cytologisch onderzoek - ectocervix -
+Trace43,vervolgconsult poliklinisch
+Trace43,administratief tarief       - eerste pol
+Trace43,telefonisch consult
+Trace43,vervolgconsult poliklinisch
+Trace43,administratief tarief       - eerste pol
+Trace43,vervolgconsult poliklinisch
+Trace43,administratief tarief       - eerste pol
+Trace44,vervolgconsult poliklinisch
+Trace44,administratief tarief       - eerste pol
+Trace44,1e consult poliklinisch
+Trace44,administratief tarief       - eerste pol
+Trace44,telefonisch consult
+Trace44,colon inloop
+Trace44,telefonisch consult
+Trace44,vervolgconsult poliklinisch
+Trace45,telefonisch consult
+Trace45,verlosk.-gynaec.   jaarkaart kosten-out
+Trace45,vervolgconsult poliklinisch
+Trace45,administratief tarief       - eerste pol
+Trace45,vervolgconsult poliklinisch
+Trace45,vervolgconsult poliklinisch
+Trace45,administratief tarief       - eerste pol
+Trace46,vervolgconsult poliklinisch
+Trace46,administratief tarief       - eerste pol
+Trace46,vervolgconsult poliklinisch
+Trace46,vervolgconsult poliklinisch
+Trace46,administratief tarief       - eerste pol
+Trace47,verlosk.-gynaec.   jaarkaart kosten-out
+Trace47,telefonisch consult
+Trace47,vervolgconsult poliklinisch
+Trace47,administratief tarief       - eerste pol
+Trace47,vervolgconsult poliklinisch
+Trace47,vervolgconsult poliklinisch
+Trace47,administratief tarief       - eerste pol
+Trace47,vervolgconsult poliklinisch
+Trace47,administratief tarief       - eerste pol
+Trace48,verlosk.-gynaec.   jaarkaart kosten-out
+Trace48,vervolgconsult poliklinisch
+Trace48,vervolgconsult poliklinisch
+Trace48,administratief tarief       - eerste pol
+Trace49,verlosk.-gynaec. korte kaart kosten-out
+Trace49,vervolgconsult poliklinisch
+Trace49,administratief tarief       - eerste pol
+Trace49,vervolgconsult poliklinisch
+Trace49,administratief tarief       - eerste pol
+Trace50,verlosk.-gynaec.   jaarkaart kosten-out
+Trace50,cytologisch onderzoek - vagina -
+Trace50,histologisch onderzoek - biopten nno
+Trace50,vervolgconsult poliklinisch
+Trace50,administratief tarief       - eerste pol
+Trace50,telefonisch consult
+Trace50,vervolgconsult poliklinisch
+Trace50,vervolgconsult poliklinisch
+Trace50,vervolgconsult poliklinisch
+Trace50,administratief tarief       - eerste pol
+Trace50,vervolgconsult poliklinisch
+Trace50,administratief tarief       - eerste pol
+Trace50,ct abdomen
+Trace50,telefonisch consult
+Trace50,telefonisch consult
+Trace50,vervolgconsult poliklinisch
+Trace50,vervolgconsult poliklinisch
+Trace50,vervolgconsult poliklinisch
+Trace50,administratief tarief       - eerste pol
+Trace51,telefonisch consult
+Trace51,verlosk.-gynaec. korte kaart kosten-out
+Trace51,vervolgconsult poliklinisch
+Trace51,administratief tarief       - eerste pol
+Trace51,telefonisch consult
+Trace52,verlosk.-gynaec.   jaarkaart kosten-out
+Trace52,vervolgconsult poliklinisch
+Trace52,administratief tarief       - eerste pol
+Trace52,vervolgconsult poliklinisch
+Trace52,vervolgconsult poliklinisch
+Trace52,administratief tarief       - eerste pol
+Trace52,vervolgconsult poliklinisch
+Trace52,administratief tarief       - eerste pol
+Trace53,verlosk.-gynaec.   jaarkaart kosten-out
+Trace53,vervolgconsult poliklinisch
+Trace53,administratief tarief       - eerste pol
+Trace53,telefonisch consult
+Trace53,cytologisch onderzoek - ectocervix -
+Trace53,vervolgconsult poliklinisch
+Trace53,telefonisch consult
+Trace54,vervolgconsult poliklinisch
+Trace54,verlosk.-gynaec.   jaarkaart kosten-out
+Trace54,vervolgconsult poliklinisch
+Trace54,administratief tarief       - eerste pol
+Trace54,vervolgconsult poliklinisch
+Trace54,vervolgconsult poliklinisch
+Trace54,administratief tarief       - eerste pol
+Trace55,vervolgconsult poliklinisch
+Trace55,verlosk.-gynaec.   jaarkaart kosten-out
+Trace55,vervolgconsult poliklinisch
+Trace55,administratief tarief       - eerste pol
+Trace55,vervolgconsult poliklinisch
+Trace55,vervolgconsult poliklinisch
+Trace55,administratief tarief       - eerste pol
+Trace55,vervolgconsult poliklinisch
+Trace55,vervolgconsult poliklinisch
+Trace55,administratief tarief       - eerste pol
+Trace56,vervolgconsult poliklinisch
+Trace56,administratief tarief       - eerste pol
+Trace56,vervolgconsult poliklinisch
+Trace56,vervolgconsult poliklinisch
+Trace56,vervolgconsult poliklinisch
+Trace56,administratief tarief       - eerste pol
+Trace56,vervolgconsult poliklinisch
+Trace56,administratief tarief       - eerste pol
+Trace56,vervolgconsult poliklinisch
+Trace57,vervolgconsult poliklinisch
+Trace57,verlosk.-gynaec.   jaarkaart kosten-out
+Trace57,vervolgconsult poliklinisch
+Trace57,administratief tarief       - eerste pol
+Trace57,vervolgconsult poliklinisch
+Trace57,vervolgconsult poliklinisch
+Trace57,administratief tarief       - eerste pol
+Trace57,vervolgconsult poliklinisch
+Trace57,administratief tarief       - eerste pol
+Trace57,mri abdomen
+Trace57,vervolgconsult poliklinisch
+Trace58,verlosk.-gynaec.   jaarkaart kosten-out
+Trace58,vervolgconsult poliklinisch
+Trace58,administratief tarief       - eerste pol
+Trace58,vervolgconsult poliklinisch
+Trace58,administratief tarief       - eerste pol
+Trace58,vervolgconsult poliklinisch
+Trace58,administratief tarief       - eerste pol
+Trace59,verlosk.-gynaec.   jaarkaart kosten-out
+Trace59,vervolgconsult poliklinisch
+Trace59,administratief tarief       - eerste pol
+Trace59,ct abdomen
+Trace59,ct bekken
+Trace59,telefonisch consult
+Trace59,vervolgconsult poliklinisch
+Trace59,vervolgconsult poliklinisch
+Trace59,administratief tarief       - eerste pol
+Trace59,mammografie thoraxwand
+Trace59,echo mamma
+Trace59,telefonisch consult
+Trace60,verlosk.-gynaec.   jaarkaart kosten-out
+Trace60,vervolgconsult poliklinisch
+Trace60,vervolgconsult poliklinisch
+Trace60,administratief tarief       - eerste pol
+Trace60,vervolgconsult poliklinisch
+Trace60,vervolgconsult poliklinisch
+Trace60,administratief tarief       - eerste pol
+Trace61,verlosk.-gynaec.   jaarkaart kosten-out
+Trace61,vervolgconsult poliklinisch
+Trace61,administratief tarief       - eerste pol
+Trace61,vervolgconsult poliklinisch
+Trace61,vervolgconsult poliklinisch
+Trace61,vervolgconsult poliklinisch
+Trace61,administratief tarief       - eerste pol
+Trace61,vervolgconsult poliklinisch
+Trace61,vervolgconsult poliklinisch
+Trace61,administratief tarief       - eerste pol
+Trace62,1e consult poliklinisch
+Trace62,vervolgconsult poliklinisch
+Trace62,administratief tarief       - eerste pol
+Trace62,administratief tarief       - eerste pol

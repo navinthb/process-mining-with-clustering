@@ -28,3 +28,29 @@ def mine_frequent_variants(log, sort_order):
     event_flows_with_counts_df = pd.DataFrame(event_flows_with_counts, columns=['Event Flow', 'Count'])
 
     return event_flows_with_counts_df
+
+
+# Get variants for each trace id
+def get_trace_variants(log):
+    # Define a list to store the tuples of Case ID and event flow
+    trace_event_flows = []
+
+    # loop traces in the event log
+    for trace in log:
+        events_list = []
+        case_id = str(trace.attributes['concept:name'])
+
+        # loop all events in the trace
+        for event in trace:
+            # concept:name is the key for event in a transaction
+            concept_name = event['concept:name']
+            if concept_name:
+                events_list.append(concept_name)
+                
+        # Apppend the Case ID and event flow tuple to the list
+        trace_event_flows.append((case_id, tuple(events_list)))
+
+    # Create a Pandas DataFrame from the list of Case ID and Event Flow tuples
+    trace_event_flows_df = pd.DataFrame(trace_event_flows, columns=['Case ID', 'Event Flow'])
+
+    return trace_event_flows_df

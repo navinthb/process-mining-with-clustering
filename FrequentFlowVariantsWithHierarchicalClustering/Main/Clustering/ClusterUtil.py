@@ -3,7 +3,7 @@ import csv
 
 def assign_weights(event_flows_df):
     
-    # Assign a weight to each record in the data frame, based on the counts
+    # Assign  weigh to each record in  data frame, based on the counts
     event_flows_df['Weight'] = event_flows_df['Count'] / event_flows_df['Count'].sum()
     
     return event_flows_df
@@ -24,13 +24,14 @@ def assign_unique_variant_ids(event_flows_df, col_name):
 # generating a CaseID & assigning event names as activities
 def write_cluster_to_csv(cluster, file_name):
     
-    with open(file_name, 'w', newline='') as file:
+    # Write to file
+    with open(file_name, 'w', newline='') as csv_file:
         
         # Define fields for CSV
         field_names = ['CaseID', 'Activity']
 
         # Create a CSV writer object
-        csv_writer = csv.DictWriter(file, fieldnames=field_names)
+        csv_writer = csv.DictWriter(csv_file, fieldnames=field_names)
 
         # Write the header row to the CSV file
         csv_writer.writeheader()

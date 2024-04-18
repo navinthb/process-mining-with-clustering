@@ -2,7 +2,6 @@ import pandas as pd
 from pm4py.objects.conversion.log import converter as log_converter
 from pm4py.algo.discovery.heuristics import algorithm as heuristics_miner
 from pm4py.visualization.heuristics_net import visualizer as hn_visualizer
-from pm4py.objects.conversion.log import converter as log_converter
 
 
 def create_cluster_full_event_log(cluster, trace_event_flows_df, full_log):
@@ -27,6 +26,8 @@ def create_cluster_full_event_log(cluster, trace_event_flows_df, full_log):
     return cluster_event_log_actual_df
 
 
+# discover the process for a given event log
+# using Heuristic Miner algorithm
 def discover_process(event_log, is_event_log):
 
     # Convert the Data Frame into an EventLog if not
@@ -38,7 +39,8 @@ def discover_process(event_log, is_event_log):
 
     return process_model
 
-    
+
+# visualize a discovered process model
 def visualize_process(process_model, save_file):
 
     # Visualize the process

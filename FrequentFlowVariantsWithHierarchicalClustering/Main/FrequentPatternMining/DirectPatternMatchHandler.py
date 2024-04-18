@@ -21,7 +21,11 @@ def mine_frequent_variants(log, sort_order):
         event_flows_with_counts[events_tuple] += 1
 
     # Sort the event variants by their frequency in the given order
-    reverse_order = True if sort_order == "DESC" else False
+    if sort_order == "DESC":
+        reverse_order = True  
+    else: 
+        reverse_order = False
+    
     event_flows_with_counts = sorted(event_flows_with_counts.items(), key=lambda x: x[1], reverse=reverse_order)
 
     # Create a Pandas dataFrame from the event flows

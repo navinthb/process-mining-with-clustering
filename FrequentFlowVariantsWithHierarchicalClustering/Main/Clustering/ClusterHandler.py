@@ -1,9 +1,11 @@
 import numpy as np
 import pandas as pd
 from sklearn.metrics.pairwise import pairwise_distances
-from scipy.cluster.hierarchy import linkage, dendrogram
+from sklearn.metrics import silhouette_score
+from scipy.spatial.distance import cdist
+from scipy.cluster.hierarchy import linkage, dendrogram, fcluster
 import matplotlib.pyplot as plt
-from scipy.cluster.hierarchy import fcluster
+
 
 
 # this calculates the distances among flows 
@@ -33,7 +35,7 @@ def calculate_distances_with_jaccard(event_flows_df):
     # Calculate distances using Jaccard similarity
     pairwise_distance_list= pairwise_distances(event_binary_matrix_np, metric='jaccard')
 
-    return pairwise_distance_list
+    return pairwise_distance_list, event_binary_matrix_np
 
 
 # Performs Agglomerative heirachichal clustering with 
@@ -47,10 +49,10 @@ def perform_hierarchical_clustering(pairwise_distance_list, method):
 
 
 # Plot & save the dendogram for a given clustered flows
-def generate_dendogram(clustered_flows, event_flows_df, col_name, title, xlabel, ylabel, save_figure_to):
+def generate_dendogram(clustered_flows, event_flows_df, col_name, title, xlabel, ylabel, save_location):
 
     # Plot the dendrogram using given parameters
-    plt.figure(figsize=(50, 12))  # Larger figsize for higher resolution
+    plt.figure(figsize=(50, 12))
     dendrogram(clustered_flows, labels=event_flows_df[col_name].tolist(),
                                 leaf_rotation=90, leaf_font_size=8)
     plt.title(title)
@@ -58,7 +60,85 @@ def generate_dendogram(clustered_flows, event_flows_df, col_name, title, xlabel,
     plt.ylabel(ylabel)
 
     # Save the dendrogram as a PNG file
-    plt.savefig(save_figure_to, dpi=300)
+    plt.savefig(save_location, dpi=300)
+
+
+# calculate silhouette score values & plot for analysis
+def plot_silhouette_scores(clustered_flows, event_binary_matrix_np):
+
+    # Calculate silhouette scores for different numbers of clusters
+    silhouette_score_list = []
+    
+    # Test is performed from 2-10 clsuters 
+    # set max number of clusters as 10
+    maximum_clusters = 10
+    
+    for cluster_count in range(2, maximum_clusters + 1):
+        # Perform clustering
+        cluster_sets = fcluster(clustered_flows, cluster_count, criterion='maxclust')
+        # Calculate silhouette score
+        silhouette_avg = silhouette_score(event_binary_matrix_np, cluster_sets)
+        silhouette_score_list.append(silhouette_avg)
+
+    # Find optimal number of clusterss based on the silhouette score
+    opt_num_of_clusters = silhouette_score_list.index( max(silhouette_score_list)) + 2
+
+    # Plot the silhouette scores
+    plt.figure( figsize=(10, 8))
+    plt.plot(range (2, maximum_clusters + 1), 
+                      silhouette_score_list)
+    plt.title('Silhouette Values for the Dataset')
+    plt.xlabel('Number of Clusters')
+    plt.ylabel('Silhouette Scores')
+    plt.xticks(range(2, maximum_clusters + 1))
+    plt.grid(True)
+    plt.show()
+
+    return opt_num_of_clusters
+
+
+
+# calculate squared distances & plot for elbow analysis
+def plot_elbow_method(clustered_flows, event_binary_matrix_np):
+
+    # Calculate sum of squared distances for different numbers of clusters
+    sum_of_squared_distance_list = []
+    maximum_clusters = 10
+
+    for cluster_count in range (1, maximum_clusters +  1):
+        # Perform clustering
+        cluster_sets = fcluster(clustered_flows, cluster_count, criterion='maxclust', )
+        
+        # Calculate cluster centroids
+        centroid_list = []
+        for cluster_id in range(1, cluster_count + 1):
+            cluster_points = event_binary_matrix_np[cluster_sets == cluster_id]
+            centroid = cluster_points.mean(axis=0)
+            centroid_list.append(centroid)
+        
+        # Calculate sum of squared distances
+        ssd = 0
+        for cluster_id in range(1, cluster_count + 1):
+            cluster_points = event_binary_matrix_np[cluster_sets == cluster_id]
+            centroid = centroid_list[cluster_id - 1]
+            distances = cdist(cluster_points, [centroid], metric='euclidean')
+            ssd += np.sum(distances ** 2)
+        
+        sum_of_squared_distance_list.append(ssd)
+
+    # Plot the elbow curve
+    plt.figure(figsize=(10, 8))
+    plt.plot(range(1, maximum_clusters + 1), 
+                   sum_of_squared_distance_list,
+                   marker='o')
+    plt.title('Elbow Method Analysis')
+    plt.xlabel('Number of Clusters')
+    plt.ylabel('Squared Distances (Sum)')
+    plt.xticks(range(1, maximum_clusters + 1))
+    plt.grid(True)
+    plt.show()
+
+
 
 
 # form clusters based on weights

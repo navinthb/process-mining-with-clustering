@@ -6,7 +6,7 @@ def mine_frequent_variants(log, sort_order):
     # Define a dictionary to store the frequency of event flows
     event_flows_with_counts = defaultdict(int)
 
-    # loop taces in the event log
+    # Loop taces in the event log
     for trace in log:
         events_list = [] 
         # loop all events in the tace

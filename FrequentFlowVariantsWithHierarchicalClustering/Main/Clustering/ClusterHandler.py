@@ -142,7 +142,7 @@ def plot_elbow_method(clustered_flows, event_binary_matrix_np):
 
 
 # form clusters based on weights
-def form_cluster_variants(event_flows_df, clustered_flows, num_of_clusters, max_variants):
+def form_cluster_variants(event_flows_df, clustered_flows, num_of_clusters, max_variants=0):
 
     # Initialize clusters
     clusters = [[] for _ in range(num_of_clusters)]
@@ -153,7 +153,10 @@ def form_cluster_variants(event_flows_df, clustered_flows, num_of_clusters, max_
     # Append event flows to the respective cluster based on weights
     for i, group in event_flows_df.groupby(cluster_assignments):
         # Sort each group by weights
-        group_sorted = group.sort_values(by='Weight', ascending=False).head(max_variants)
+        if max_variants > 0:
+            group_sorted = group.sort_values(by='Weight', ascending=False).head(max_variants)
+        else:
+            group_sorted = group.sort_values(by='Weight', ascending=False)
         clusters[i - 1].extend(group_sorted['Event Flow'].tolist())
     
     return clusters

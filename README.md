@@ -1,2 +1,2 @@
 # process-mining-with-clustering
-Process Mining with Various Clustering Techniques
+This project defines a new approach for process mining in event logs based on clustering by prioritizing the frequent flow variants of the event log followed by Agglomerative Hierarchical Clustering. The approach is tested with a public hospital event log where three portions of frequent flow variants in the descending order of occurrences of the log is used. Conformance checking of each cluster is performed against their own process models and the full event log process model. The project is developed using Python language.
